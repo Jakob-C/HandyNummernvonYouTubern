@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="10dp">
+
+    <item android:title="YouTuber Auswahl"
+        android:id="@+id/youtuberauswahl"
+        android:layout_marginTop="10dp"
+        android:icon="@drawable/kopficon" />
+
+    <item android:title="App teilen"
+        android:id="@+id/teilen"
+        android:layout_marginTop="10dp"
+        android:icon="@drawable/shareimg" />
+
+    <item android:title="Erklärung"
+        android:id="@+id/erklaerung"
+        android:layout_marginTop="10dp"
+        android:icon="@drawable/infoicon" />
+
+
+    <item android:title="Kontakt">
+        <menu>
+            <item
+                android:id="@+id/instagram"
+                android:icon="@drawable/instaicon"
+                android:title="Instagram" />
+            <item
+                android:id="@+id/email"
+                android:icon="@drawable/emailicon"
+                android:title="E-Mail schreiben" />
+
+            <item
+                android:id="@+id/impressum"
+                android:icon="@drawable/impressum"
+                android:title="Info" />
+
+        </menu>
+    </item>
+
+
+
+
+
+</menu>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Handynummern - YouTuber</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8919538156550588/3626085753</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="plottwist"><b>Tja und was nun?</b> \nDu hast doch nicht ernsthaft damit gerechnet, dass wir hier irgendwelche Handynummern von Menschen rausgeben, die genau dasselbe Recht auf Privatsphäre haben wie du oder?\n\nIn der Zeit wo du <b>100.000</b> Mal auf den Kopf gedrückt hast konnten diese YouTuber in Frieden weiter Leben ohne sich belästigt zu fühlen und in der Zeit wo du diesen Text ließt wird dir vielleicht klar. dass die Privatsphäre anderer Menschen doch wichtiger ist als du zuvor dachtest.\n\nWie geht es jetzt weiter? Du kannst nun eine schlechte Bewertung abgeben und sagen, dass diese App ein Fake ist was  völlig in Ordnung wäre oder du bist ein schlauer Fuchs und lässt andere auch ihre Lektion lernen und verbreitest die App.\n\nWenn du bis hier hin gelesen hast, bin ich echt stolz auf dich, denn daran sehen wir, dass deine Aufmerksamkeitsspanne länger ist, als die einer Eintagsfliege und du doch nicht nur auf eine "schnelle Nummer" aus bist.
+Und wenn du dieses Wortspiel verstanden hast, ist dein Coolheitslevel over 9000.\n\nCheers.\n</string>
+
+
+    <string name="begeruessungsTitle">So gehts...</string>
+    <string name="begruessungsText">Suche dir einen YouTuber aus und klick los! Nach 100.000 Klicks erhälst du die Nummer des Ausgewählten YouTubers. Den "5-Sterne" Boost kannst du nur einmal verwenden, also überlege dir vorher für welchen YouTuber. Und jetzt viel Spaß beim Klicken :)</string>
+
+    <string name="ratingTitle">Da bist du ja wieder</string>
+    <string name="ratingText">Vielen Dank für deine Bewertung, hier deine Belohnung...</string>
+
+    <string name="checkInternetConnection">Überprüfe deine Internetverbindung!</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>
