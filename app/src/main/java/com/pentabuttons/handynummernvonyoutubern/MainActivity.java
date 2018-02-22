@@ -32,7 +32,17 @@ public class MainActivity extends AppCompatActivity {
             "Julien Bam",
             "Bibis Beauty-\npalace",
             "Tanzverbot",
-            "Dagi Bee"};
+            "Dagi Bee",
+            "Dner",
+            "Kelly MissesVlog",
+            "Shirin David",
+            "Julienco",
+            "Freshtorge",
+            "ConCrafter",
+            "LauraJoelle",
+            "Paola Maria",
+            "RayFox",
+            "Melina Sophie"};
 
 
     Integer[] image = {
@@ -42,6 +52,16 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.prevbibi,
             R.drawable.prevtanzi,
             R.drawable.prevdagi,
+            R.drawable.dnerprev,
+            R.drawable.kellyprev,
+            R.drawable.shirinprev,
+            R.drawable.juliencoprev,
+            R.drawable.torgeprev,
+            R.drawable.concraftersmall,
+            R.drawable.lauraprev,
+            R.drawable.paolaprev,
+            R.drawable.rayfoxsmall,
+            R.drawable.melinaprev
     };
 
 
@@ -57,6 +77,16 @@ public class MainActivity extends AppCompatActivity {
     public static int bibizahl;
     public static int tanzizahl;
     public static int dagizahl;
+    public static int dnerzahl;
+    public static int kellyzahl;
+    public static int shirinzahl;
+    public static int juliencozahl;
+    public static int freshtorgezahl;
+    public static int concrafterzahl;
+    public static int laurazahl;
+    public static int paolazahl;
+    public static int rayfoxzahl;
+    public static int melinazahl;
 
     public static int adMargin;
 
@@ -126,10 +156,39 @@ public class MainActivity extends AppCompatActivity {
         bibizahl = prefs.getInt("bibizahl", gesamtklicks);
         tanzizahl = prefs.getInt("tanzizahl", gesamtklicks);
         dagizahl = prefs.getInt("dagizahl", gesamtklicks);
+        dnerzahl = prefs.getInt("dnerzahl", gesamtklicks);
+        kellyzahl = prefs.getInt("kellyzahl", gesamtklicks);
+        shirinzahl = prefs.getInt("shirinzahl", gesamtklicks);
+        juliencozahl = prefs.getInt("juliencozahl", gesamtklicks);
+        freshtorgezahl = prefs.getInt("freshtorgezahl", gesamtklicks);
+        concrafterzahl = prefs.getInt("concrafterzahl", gesamtklicks);
+        laurazahl = prefs.getInt("laurazahl", gesamtklicks);
+        paolazahl = prefs.getInt("paolazahl", gesamtklicks);
+        rayfoxzahl = prefs.getInt("rayfoxzahl", gesamtklicks);
+        melinazahl = prefs.getInt("melinazahl", gesamtklicks);
+
+
         userRatedUs = prefs.getBoolean("userRatedUs", false);
 
 
-        int[] progresses = {cP(lukaszahl), cP(mikezahl), cP(julienzahl), cP(bibizahl), cP(tanzizahl), cP(dagizahl)};
+        int[] progresses = {
+                cP(lukaszahl),
+                cP(mikezahl),
+                cP(julienzahl),
+                cP(bibizahl),
+                cP(tanzizahl),
+                cP(dagizahl),
+                cP(dnerzahl),
+                cP(kellyzahl),
+                cP(shirinzahl),
+                cP(juliencozahl),
+                cP(freshtorgezahl),
+                cP(concrafterzahl),
+                cP(laurazahl),
+                cP(paolazahl),
+                cP(rayfoxzahl),
+                cP(melinazahl),
+        };
 
 
         ListView list = (ListView) findViewById(R.id.simpleList);
@@ -159,6 +218,36 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 5:
                         youtuber = "dagibee";
+                        break;
+                    case 6:
+                        youtuber = "dner";
+                        break;
+                    case 7:
+                        youtuber = "kelly";
+                        break;
+                    case 8:
+                        youtuber = "shirin";
+                        break;
+                    case 9:
+                        youtuber = "julienco";
+                        break;
+                    case 10:
+                        youtuber = "freshtorge";
+                        break;
+                    case 11:
+                        youtuber = "concrafter";
+                        break;
+                    case 12:
+                        youtuber = "laura";
+                        break;
+                    case 13:
+                        youtuber = "paola";
+                        break;
+                    case 14:
+                        youtuber = "rayfox";
+                        break;
+                    case 15:
+                        youtuber = "melina";
                         break;
 
                 }

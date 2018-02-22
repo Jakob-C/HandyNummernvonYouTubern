@@ -98,6 +98,67 @@ public class YoutuberActivity extends AppCompatActivity {
                 kleinbild=R.drawable.dagiklein;
                 break;
 
+            case "dner":
+                klickzahl= MainActivity.dnerzahl;
+                zahlname="dnerzahl";
+                normalbild=R.drawable.dner;
+                kleinbild=R.drawable.dnerklein;
+                break;
+            case "kelly":
+                klickzahl= MainActivity.kellyzahl;
+                zahlname="kellyzahl";
+                normalbild=R.drawable.kelly;
+                kleinbild=R.drawable.kellyklein;
+                break;
+            case "shirin":
+                klickzahl= MainActivity.shirinzahl;
+                zahlname="shirinzahl";
+                normalbild=R.drawable.shirin;
+                kleinbild=R.drawable.shirinklein;
+                break;
+            case "julienco":
+                klickzahl= MainActivity.juliencozahl;
+                zahlname="juliencozahl";
+                normalbild=R.drawable.julienco;
+                kleinbild=R.drawable.juliencoklein;
+                break;
+            case "freshtorge":
+                klickzahl= MainActivity.freshtorgezahl;
+                zahlname="freshtorgezahl";
+                normalbild=R.drawable.torge;
+                kleinbild=R.drawable.torgeklein;
+                break;
+            case "concrafter":
+                klickzahl= MainActivity.concrafterzahl;
+                zahlname="concrafterzahl";
+                normalbild=R.drawable.concrafterfull;
+                kleinbild=R.drawable.concrafterfull_state_pressed;
+                break;
+            case "laura":
+                klickzahl= MainActivity.laurazahl;
+                zahlname="laurazahl";
+                normalbild=R.drawable.laura;
+                kleinbild=R.drawable.lauraklein;
+                break;
+            case "paola":
+                klickzahl= MainActivity.paolazahl;
+                zahlname="paolazahl";
+                normalbild=R.drawable.paola;
+                kleinbild=R.drawable.paolaklein;
+                break;
+            case "rayfox":
+                klickzahl= MainActivity.rayfoxzahl;
+                zahlname="rayfoxzahl";
+                normalbild=R.drawable.rayfoxfull;
+                kleinbild=R.drawable.rayfoxfull_state_pressed;
+                break;
+            case "melina":
+                klickzahl= MainActivity.melinazahl;
+                zahlname="melinazahl";
+                normalbild=R.drawable.melina;
+                kleinbild=R.drawable.melinaklein;
+                break;
+
         }
 
 
