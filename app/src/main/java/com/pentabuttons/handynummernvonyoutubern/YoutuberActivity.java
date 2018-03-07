@@ -45,6 +45,8 @@ public class YoutuberActivity extends AppCompatActivity {
     public RewardedVideoAd mAd;
     ScrollView scrollView;
 
+    //just testing
+
     @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,7 +92,7 @@ public class YoutuberActivity extends AppCompatActivity {
                 zahlname="tanzizahl";
                 normalbild=R.drawable.tanzi;
                 kleinbild=R.drawable.tanziklein;
-                break;
+            break;
             case "dagibee":
                 klickzahl= MainActivity.dagizahl;
                 zahlname="dagizahl";
